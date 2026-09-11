@@ -1,0 +1,38 @@
+{
+  "name": "@khimaros/pi-dump",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "dump the first request and exit",
+  "keywords": [
+    "pi-package"
+  ],
+  "license": "GPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khimaros/pi-dump.git"
+  },
+  "homepage": "https://github.com/khimaros/pi-dump#readme",
+  "bugs": {
+    "url": "https://github.com/khimaros/pi-dump/issues"
+  },
+  "pi": {
+    "extensions": [
+      "src/extension/index.ts"
+    ]
+  },
+  "files": [
+    "src/extension",
+    "README.md",
+    "LICENSE"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.5",
+    "typescript": "5.7.3"
+  }
+}
